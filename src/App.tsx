@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div>
-      <h1>Markdown Previwer</h1>
+      <h1>Markdown Previewer</h1>
       <div className='boxes-container'>
         <textarea name='editor' id='editor' value={markdownText} onChange={(e) => setMarkdownText(e.target.value)}></textarea>
         <div id='preview'>     
